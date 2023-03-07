@@ -14,6 +14,7 @@ export const Footer = () => {
           <MailchimpForm />
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
+
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon mt-4">
@@ -21,7 +22,7 @@ export const Footer = () => {
               <a href="https://facebook.com/Adimora.kachifizgerald"><img src={navIcon2} alt="icon2" /></a>
               <a href="https://instagram.com/geraldkachi"><img src={navIcon3} alt="icon3" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright {new Date().getFullYear()}. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
