@@ -16,7 +16,7 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
+            <div className="social-icon mt-4">
               <a href="https://www.linkedin.com/in/fitzgerald-kachi/"><img src={navIcon1} alt="icon1" /></a>
               <a href="https://facebook.com/Adimora.kachifizgerald"><img src={navIcon2} alt="icon2" /></a>
               <a href="https://instagram.com/geraldkachi"><img src={navIcon3} alt="icon3" /></a>
